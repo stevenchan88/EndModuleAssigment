@@ -9,7 +9,7 @@ class example_class:
     }
 
 my_object = example_class()
-
+                               ######### ATTENTION!, the follwoing is using pickle, not json###########
 my_pickled_object = pickle.dumps(my_object)  # Pickling the object
 print(f"This is my pickled object:\n{my_pickled_object}\n")
 my_object.a_dict = None
